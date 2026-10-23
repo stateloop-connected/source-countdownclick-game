@@ -1,0 +1,58 @@
+{
+  "build_script": "vite build",
+  "gameplay_or_asset_changes": false,
+  "google_fonts_selfhost": {
+    "families": [
+      {
+        "family": "Handjet",
+        "source": "ofl/handjet/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "Quicksand",
+        "source": "ofl/quicksand/OFL.txt",
+        "spdx": "OFL-1.1"
+      }
+    ],
+    "font_files": 12,
+    "fonts_dir": ".packaging/google-fonts",
+    "google_fonts_commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+    "helper": "google-fonts-selfhost.py",
+    "stylesheets": [
+      {
+        "local": ".packaging/google-fonts/562dcd0206f4bb3c.css",
+        "sha256": "ecdfea3dff2174089678e78937f890a39df91f007acbe7f33a702ec79c25a11a",
+        "url": "https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Handjet:wght@400;700&display=swap"
+      }
+    ],
+    "total_font_bytes": 111376,
+    "version": 1
+  },
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "rishavConsoleLog21/CountdownClick-Game",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json",
+    ".packaging/google-fonts/562dcd0206f4bb3c.css",
+    ".packaging/google-fonts/NOTICE.md",
+    ".packaging/google-fonts/files/2992432a110131572313.woff2",
+    ".packaging/google-fonts/files/30154780c95e5cf666dc.woff2",
+    ".packaging/google-fonts/files/33c1a5e18494dc425f06.woff2",
+    ".packaging/google-fonts/files/3e5cae29754b96baebef.woff2",
+    ".packaging/google-fonts/files/490bff85a529e711fc5d.woff2",
+    ".packaging/google-fonts/files/4f412746b77f77c32719.woff2",
+    ".packaging/google-fonts/files/75c6ebd3ba6111316b9c.woff2",
+    ".packaging/google-fonts/files/881c48d37232abb79b00.woff2",
+    ".packaging/google-fonts/files/ce9300a41462775de609.woff2",
+    ".packaging/google-fonts/files/e014a9021f269e140d3f.woff2",
+    ".packaging/google-fonts/files/e7ad16ce219a289a7767.woff2",
+    ".packaging/google-fonts/files/f9d2cdd9efca6213ca97.woff2",
+    ".packaging/google-fonts/licenses/Handjet-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/Quicksand-OFL-1.1.txt",
+    "src/index.css"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "48e4160e670cee6757c7b4a9dd344c29fd9d540d"
+}
